@@ -6,6 +6,7 @@ const routes: Array<RouteRecordRaw> = [
     path: "/",
     component: indexPage,
   },
+  // 动态路由
   {
     path: "/:category",
     component: indexPage,
